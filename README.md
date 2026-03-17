@@ -16,10 +16,11 @@ As fontes selecionadas cobrem desde a gestão logística básica até a aplicaç
 ## 🧠 Engenharia de Prompts e "Cicatrizes"
 Para extrair o conhecimento das fontes no NotebookLM, utilizei a seguinte estratégia:
 
-| Prompt Original | Resultado Esperado | Cicatrizes / Ajustes (Troubleshooting) |
-| "Supondo que você é um especialista em dados atuando na área de Supply Chain, disserte sobre a importância da análise de dados na otimização de custos e na manutenção da eficiência de toda cadeia de suprimentos." | Dissertação sobre otimização de custos. | A IA trouxe excelentes pontos, mas gostaria que ela trouxesse pontos mais convicentes, como se realmente buscasse convencer um CEO a implementar um time de dados em sua fábrica. |
-| "Explique os benefícios da contratação de um time focado em dados dentro de um ambiente fabril, utilizando tópicos e limitando-se a 5 tópicos" | Lista de 5 benefícios em tópicos. | O Notebook LM atendeu a sugestão perfeitamente e listou os 5 benefícios como esperado. |
-| "Com base nas tendências de Big Data e Machine Learning apresentadas nas fontes, elabore um roadmap dividido em 3 fases (Curto, Médio e Longo prazo) para uma fábrica que deseja sair do uso de planilhas manuais e chegar à análise preditiva. Para cada fase, indique qual tecnologia deve ser priorizada e qual o impacto esperado na logística." | Plano de curto, médio e longo prazo. | A IA criou um excelente plano de ação. |
+* | Prompt Original | Resultado Esperado | Cicatrizes / Ajustes (Troubleshooting) |
+* | "Supondo que você é um especialista em dados atuando na área de Supply Chain, disserte sobre a importância da análise de dados na otimização de custos e na manutenção da eficiência de toda cadeia de suprimentos." | Dissertação sobre otimização de custos. | A IA trouxe excelentes pontos, mas gostaria que ela trouxesse pontos mais convicentes, como se realmente buscasse convencer um CEO a implementar um time de dados em sua fábrica. |
+* Para refinar essa resposta, criei o prompt: "Faça uma versão de maneira que seja convicente a respeito do tema, supondo que você realmente está interessado a convencer um CEO a implementar uma equipe de dados em sua fábrica."
+* | "Explique os benefícios da contratação de um time focado em dados dentro de um ambiente fabril, utilizando tópicos e limitando-se a 5 tópicos" | Lista de 5 benefícios em tópicos. | O Notebook LM atendeu a sugestão perfeitamente e listou os 5 benefícios como esperado. |
+* | "Com base nas tendências de Big Data e Machine Learning apresentadas nas fontes, elabore um roadmap dividido em 3 fases (Curto, Médio e Longo prazo) para uma fábrica que deseja sair do uso de planilhas manuais e chegar à análise preditiva. Para cada fase, indique qual tecnologia deve ser priorizada e qual o impacto esperado na logística." | Plano de curto, médio e longo prazo. | A IA criou um excelente plano de ação. |
 
 ---
 
